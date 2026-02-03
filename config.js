@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Crystal Wen",
+    valentineName: "Crystal",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,15 +22,15 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like your boy (No is not an option)",                                    // First interaction
+            text: "Do you like your bgi lover boy (hint theres a 3rd answer)",                                    // First interaction
             yesBtn: "Yes lil bro",                                             // Text for "Yes" button
             noBtn: "no kid",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you!❤️❤️❤️"           // Secret hover message
         },
         second: {
             text: "how much do you rlly love me?",                          // For the love meter
-            startText: "RLLY THIS much!",                                   // Text before the percentage
-            nextBtn: "continue (is that bar all the way to the right)"                                         // Text for the next button
+            startText: "drag that thing to the right!",                                   // Text before the percentage
+            nextBtn: "Continue (are you sure this is how much you love me?)"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine?? 🌺 (<< hisbiscus btw)", // The big question!
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "I truly appreciate EVERYTHINGGG from you babe!",
-        message: "I loooooooooooooove you Crystal!",
+        message: "I looooooooooooooove you Crystal!",
         emojis: "👅🍒🤗💋❤️💕"  // These will bounce around
     },
 
